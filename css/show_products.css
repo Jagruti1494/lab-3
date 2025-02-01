@@ -1,0 +1,104 @@
+body {
+  background: #f1f1f1; /* Softer light gray background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+}
+
+.product-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background: #ffffff; /* Solid white background */
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+  margin: 20px;
+  background-color: #f8f9fa; /* Off-white background for cards */
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Subtle upward movement on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+.card-header {
+  background: #6f42c1; /* Purple header for a unique look */
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 1.25rem;
+}
+
+.product-details p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #636363; /* Darker gray for text */
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.status-badge.in-stock {
+  background: #28a745; /* Green for in-stock */
+  color: white;
+}
+
+.status-badge.out-of-stock {
+  background: #e53e3e; /* Red for out-of-stock */
+  color: white;
+}
+
+.remove-btn {
+  background: #17a2b8; /* Blue button for removals */
+  border: none;
+  padding: 12px;
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #138496; /* Slightly darker blue on hover */
+  transform: scale(1.05); /* Slight scale on hover */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333; /* Slightly darker color for titles */
+}
+
+.product-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #007bff; /* Highlight the price with a bright blue color */
+}
+
+.product-card .btn {
+  font-size: 1.2rem;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  background-color: #6f42c1; /* Use the purple color for action buttons */
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.product-card .btn:hover {
+  background-color: #5a2b8e; /* Darker purple for hover effect */
+}

@@ -1,0 +1,106 @@
+{
+    "679c9580b1caa": {
+        "orderId": "679c9580b1caa",
+        "customerName": "Jagruti kataria",
+        "products": {
+            "2": {
+                "quantity": 3,
+                "price": 4.5
+            },
+            "4": {
+                "quantity": 2,
+                "price": 3.2
+            },
+            "5": {
+                "quantity": 1,
+                "price": 60
+            }
+        },
+        "totalPrice": 95.2,
+        "orderDate": "2025-02-01 14:18:56"
+    },
+    "679ca5f525558": {
+        "orderId": "679ca5f525558",
+        "customerName": "Jane Smith",
+        "products": {
+            "2": {
+                "quantity": 5,
+                "price": 4.5
+            },
+            "3": {
+                "quantity": 2,
+                "price": 6
+            },
+            "5": {
+                "quantity": 15,
+                "price": 55
+            }
+        },
+        "totalPrice": 872.5,
+        "orderDate": "2025-02-01 15:29:09"
+    },
+    "679d47e71c8dd": {
+        "orderId": "679d47e71c8dd",
+        "customerName": "Mike Ross",
+        "products": {
+            "1": {
+                "quantity": 3,
+                "price": 5
+            },
+            "2": {
+                "quantity": 2,
+                "price": 4.5
+            }
+        },
+        "totalPrice": 35.5,
+        "orderDate": "2025-02-01 16:00:07"
+    },
+    "order_679e842fd0903": {
+        "orderId": "order_679e842fd0903",
+        "customerName": "JK",
+        "products": {
+            "1": {
+                "quantity": 1,
+                "price": 2.5
+            }
+        },
+        "totalPrice": 2.5,
+        "orderDate": "2025-02-01 21:29:35"
+    },
+    "order_679e84676869d": {
+        "orderId": "order_679e84676869d",
+        "customerName": "JK",
+        "products": {
+            "1": {
+                "quantity": 1,
+                "price": 2.5
+            }
+        },
+        "totalPrice": 2.5,
+        "orderDate": "2025-02-01 21:30:31"
+    },
+    "order_679e84960dd88": {
+        "orderId": "order_679e84960dd88",
+        "customerName": "KK",
+        "products": {
+            "5": {
+                "quantity": 1,
+                "price": 55
+            }
+        },
+        "totalPrice": 55,
+        "orderDate": "2025-02-01 21:31:18"
+    },
+    "order_679e85bc94483": {
+        "orderId": "order_679e85bc94483",
+        "customerName": "kk",
+        "products": {
+            "5": {
+                "quantity": 1,
+                "price": 55
+            }
+        },
+        "totalPrice": 55,
+        "orderDate": "2025-02-01 21:36:12"
+    }
+}

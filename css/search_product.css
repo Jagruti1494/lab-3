@@ -1,0 +1,29 @@
+.product-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  @media (min-width: 769px) {
+    .product-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2) !important;
+    }
+  }
+  
+  .card-header.custom-header {
+    background: #28a745;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status-badge {
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 6px 18px;
+    background-color: #f8d210;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
